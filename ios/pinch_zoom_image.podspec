@@ -1,6 +1,7 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+platform :ios, '9.0'
 Pod::Spec.new do |s|
   s.name             = 'pinch_zoom_image'
   s.version          = '0.0.1'
