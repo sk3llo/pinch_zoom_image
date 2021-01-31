@@ -1,4 +1,4 @@
-#import "PinchZoomImageLastPlugin.h"
+#import "PinchZoomImagePlugin.h"
 #if __has_include(<pinch_zoom_image_last/pinch_zoom_image_last-Swift.h>)
 #import <pinch_zoom_image_last/pinch_zoom_image_last-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "pinch_zoom_image_last-Swift.h"
 #endif
 
-@implementation PinchZoomImageLastPlugin
+@implementation PinchZoomImagePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftPinchZoomImageLastPlugin registerWithRegistrar:registrar];
+  [SwiftPinchZoomImagePlugin registerWithRegistrar:registrar];
 }
 @end
